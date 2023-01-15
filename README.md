@@ -8,7 +8,7 @@
 
 ``` bash
 $ git clone https://github.com/SosninAnton/ConsoleCommandApp.git
-$cd ConsoleCommandApp
+$ cd ConsoleCommandApp
 $ docker build -t console-command-app .
 $ docker run -it console-command-app bash
 $ composer install
