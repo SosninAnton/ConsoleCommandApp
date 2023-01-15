@@ -1,0 +1,26 @@
+{
+    "name": "sosninanton/console-command-app",
+    "type": "projet",
+    "authors": [
+        {
+            "name": "SosninAnton",
+            "email": "sosnin@praweb.ru"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SosninAnton/ConsoleCommand"
+        }
+    ],
+    "require": {
+        "php" : "~8.1",
+        "ext-mbstring": "*",
+        "sosninanton/consolecommand": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
